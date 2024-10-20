@@ -25,3 +25,12 @@
   font-family: 'Courier New', Courier, monospace;
   color:black;
 }
+.student{
+  border: hsla(0, 0%, 0%, 0.644) solid 1px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+.student p{
+  margin: 0;
+}
