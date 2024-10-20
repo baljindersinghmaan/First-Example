@@ -2,7 +2,9 @@ function List(){
 
     const fruits = ["Apple", "Bannna","coconut"]
 
-    return(fruits);
+    const fruitsItem = fruits.map(fruit => <li>{fruit}</li>)
+
+    return(<ul>{fruitsItem}</ul>);
 
 }
 
