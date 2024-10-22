@@ -1,11 +1,10 @@
-import UserGreetings from "./UserGreeting";
 import List from "./List";
-
+import Button from "./button";
 
 function App() {
   return (
     <>
-    <List></List>
+    <Button></Button>
     </>
   );
 }

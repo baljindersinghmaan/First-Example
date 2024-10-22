@@ -1,6 +1,10 @@
 
 function Button(){
 
+    const handleClick = () => console.log("ouch");
+
+    const handleClick2 = (name) => console.log(`${name} `)
+
     const styles = {
         backgroundColor: "rgb(0, 242, 255)",
     color: "white",
@@ -10,7 +14,7 @@ function Button(){
     cursor: "pointer"
     }
 
-    return(<button style={styles}>Click me</button>);
+    return(<button onClick={()=> handleClick2("bro")} style={styles}>Click me</button>);
 }
 
 export default Button
