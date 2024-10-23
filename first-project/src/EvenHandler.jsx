@@ -7,6 +7,10 @@ function EventHandler(){
 
     function handleShipping(event){
         setShipping(event.target.value)
+        /// if we tried to set value again it will update only once, this will work with counter properly 
+        // setShipping(event.target.value)
+        // to make this work we have to get previous value
+       // setShipping(s => s+ "Some value")
     }
     
     function handleNameChange(event){
