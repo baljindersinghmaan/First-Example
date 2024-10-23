@@ -1,8 +1,8 @@
-import UseEffect from "./UseFeectExa";
+import DigitalClock from "./DigitalClock";
 function App() {
   return (
     <>
-        <UseEffect/>
+        <DigitalClock/>
     </>
   );
 }
