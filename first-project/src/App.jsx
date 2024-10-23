@@ -1,10 +1,10 @@
 import List from "./List";
 import Button from "./button";
-
+import  MyComponent  from "./MyComponent";
 function App() {
   return (
     <>
-    <Button></Button>
+        <MyComponent></MyComponent>
     </>
   );
 }
