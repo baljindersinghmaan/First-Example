@@ -1,8 +1,8 @@
-import ArrayUpdate from "./Array";
+import UseEffect from "./UseFeectExa";
 function App() {
   return (
     <>
-        <ArrayUpdate/>
+        <UseEffect/>
     </>
   );
 }
