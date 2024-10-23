@@ -1,10 +1,9 @@
-import List from "./List";
-import Button from "./button";
-import  MyComponent  from "./MyComponent";
+import EventHandler from "./EvenHandler";
+
 function App() {
   return (
     <>
-        <MyComponent></MyComponent>
+        <EventHandler/>
     </>
   );
 }
